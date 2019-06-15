@@ -33,7 +33,7 @@ int main()
     cout << "o = " << o << endl;
     cout << "u = " << u << endl;
     cout << "i = " << i << endl;
-
+	//0
     // system("pause"); // Только для тех, у кого MS Visual Studio
     return 0;
 }
