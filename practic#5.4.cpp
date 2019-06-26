@@ -24,8 +24,17 @@
      string sup = "HELLO WORLD";
      sup=funct(sup);
      cout<<sup<<endl;
-     if (sup == "HeLLo WoRLD"){cout<<"Right";}
-     else {cout<<"Wrong";}
+     if (sup == "HeLLo WoRLD"){cout<<"Right"<<endl;}
+     else {cout<<"Wrong";};
+     sup = "";
+     sup=funct(sup);
+     if (sup == ""){cout<<"Right"<<endl;}
+     else {cout<<"Wrong";};
+     sup = "1234";
+     sup=funct(sup);
+     if (sup == "1234"){cout<<"Right"<<endl;}
+     else {cout<<"Wrong";};
+
 
     return 0;
  }
