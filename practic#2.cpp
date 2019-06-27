@@ -15,11 +15,11 @@ void kolgl(string bus, int &a, int &e, int &o, int &u, int &i, int &y)
 
 } 
 int main(){ 
-int a = 0, e = 0, o = 0, u = 0, i = 0, y = 0;
- string bus; 
-getline(cin,bus);
-kolgl(bus,a,e,o,u,i,y);
- // system("pause"); // Только для тех, у кого MS Visual Studio
- cout << "a = " << a << endl; cout << "e = " << e << endl; cout << "o = " << o << endl; cout << "u = " << u << endl; cout << "i = " << i << endl;
- return 0;
+	int a = 0, e = 0, o = 0, u = 0, i = 0, y = 0;
+	 string bus; 
+	getline(cin,bus);
+	kolgl(bus,a,e,o,u,i,y);
+ 	// system("pause"); // Только для тех, у кого MS Visual Studio
+ 	cout << "a = " << a << endl; cout << "e = " << e << endl; cout << "o = " << o << endl; cout << "u = " << u << endl; cout << "i = " << i << endl;
+ 	return 0;
 }
